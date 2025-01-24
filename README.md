@@ -37,4 +37,4 @@ Follow these steps to set up the project locally.
 
 1. Clone the repo:
    ```bash
-  https://github.com/242zayn/Typescript-Interface-maker.git
+git clone https://github.com/yourusername/yourproject.git
