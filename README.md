@@ -1,4 +1,4 @@
-# 🌟 Project Name: Beautiful Project Name Here
+# 🌟 Project Name:Typescript Interfaces Generater
 
 ![Project Logo](https://github.com/242zayn/Typescript-Interface-maker/blob/master/interface1.png?raw=true)
 ![Project Logo](https://github.com/242zayn/Typescript-Interface-maker/blob/master/interface2.png?raw=true)
@@ -37,4 +37,4 @@ Follow these steps to set up the project locally.
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
+  https://github.com/242zayn/Typescript-Interface-maker.git
