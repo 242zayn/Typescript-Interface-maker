@@ -29,6 +29,7 @@ const Hero = () => {
               text_dark="text-white"
               text_light="text-black"
               AceternityLogos={true}
+              herf="/maker"
             />
             <HoverBorderGradientDemo
               content="Contect us &rarr; "

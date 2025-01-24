@@ -10,16 +10,19 @@ const HoverBorderGradientDemo = ({
   text_dark,
   text_light,
   AceternityLogos,
+  herf,
+  onclick,
 }: ThemeButtonType) => {
   return (
     <div className="mt-10 flex justify-center text-center ">
       <HoverBorderGradient
         containerClassName="rounded-full"
         as="button"
+        onClick={onclick}
         className={`dark:${bg_dark} ${bg_dark} ${text_dark} dark:${text_light} flex items-center space-x-2 `}
       >
         <Link
-          href={"/maker"}
+          href={herf || "#"}
           className={` ${text_light} dark:${text_dark} text-sm md:text-sm  font-medium items-center justify-center `}
         >
           {content}

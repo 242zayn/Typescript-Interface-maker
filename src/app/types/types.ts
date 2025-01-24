@@ -5,4 +5,10 @@ export interface ThemeButtonType {
   text_dark: string;
   text_light: string;
   AceternityLogos: boolean;
+  herf?: string;
+  onclick?: () => void;
+}
+export interface InterfacePropsType {
+  value: string;
+  onValueChange: (value: string) => void;
 }
