@@ -6,7 +6,7 @@ import { EditorView } from "@codemirror/view";
 import { EditorState } from "@codemirror/state";
 import CodeMirror from "@uiw/react-codemirror";
 import { javascript } from "@codemirror/lang-javascript";
-import { oneDark } from "@codemirror/theme-one-dark";
+import { oneDark ,oneDarkTheme, oneDarkHighlightStyle } from "@codemirror/theme-one-dark";
 
 interface CodeEditorProps {
   initialCode?: string | string[];
@@ -17,7 +17,9 @@ const CodeEditor: React.FC<CodeEditorProps> = ({
   initialCode = "",
   onCodeChange,
 }) => {
-  const [code, setCode] = useState(initialCode);
+  const [code, setCode] = useState(
+    Array.isArray(initialCode) ? initialCode.join("\n") : initialCode
+  );
 
   const handleChange = (value: string) => {
     setCode(value);

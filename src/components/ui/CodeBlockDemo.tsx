@@ -5,7 +5,9 @@ import React, { useState } from "react";
 
 import { CodeBlock } from "@/components/ui/code-block";
 
-export function CodeBlockDemo({ code }) {
+import { CodeBlockDemoProps } from "@/app/types/types";
+
+export function CodeBlockDemo({ code }: CodeBlockDemoProps) {
   const [codes, setCode] = useState(`cexport interface Weather {
   id: number;
   name: string;

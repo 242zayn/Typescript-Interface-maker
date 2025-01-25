@@ -12,3 +12,6 @@ export interface InterfacePropsType {
   value: string;
   onValueChange: (value: string) => void;
 }
+export interface CodeBlockDemoProps {
+  code: string;
+}

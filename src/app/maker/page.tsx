@@ -6,7 +6,6 @@ import MyDrop from "@/components/MyDrop";
 import { CodeBlockDemo } from "@/components/ui/CodeBlockDemo";
 import { Input } from "@/components/ui/input";
 import React, { useState } from "react";
-import { initialCode } from "../data/data";
 import HoverBorderGradientDemo from "@/components/HoverBorderGradientDemo";
 
 const Page = () => {
@@ -115,9 +114,9 @@ export interface Preferences {
           <div className="flex items-center  justify-between gap-4 pb-2">
             <Input
               type="text"
-              defaultValue="Wather"
+              defaultValue={"Weather"}
               value={interfaceName}
-              placeholder="Enter data name"
+              placeholder="Wather"
               onChange={(e) => setInterfaceName(e.target.value)}
             />
             <MyDrop value={interfaceType} onValueChange={handleTypeChange} />
