@@ -1,5 +1,7 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable react-hooks/exhaustive-deps */
 "use client";
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect} from "react";
 
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";

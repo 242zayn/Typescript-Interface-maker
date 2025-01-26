@@ -2,11 +2,9 @@
 
 import React from "react";
 import { useState } from "react";
-import { EditorView } from "@codemirror/view";
-import { EditorState } from "@codemirror/state";
 import CodeMirror from "@uiw/react-codemirror";
 import { javascript } from "@codemirror/lang-javascript";
-import { oneDark ,oneDarkTheme, oneDarkHighlightStyle } from "@codemirror/theme-one-dark";
+import { oneDark } from "@codemirror/theme-one-dark";
 
 interface CodeEditorProps {
   initialCode?: string | string[];

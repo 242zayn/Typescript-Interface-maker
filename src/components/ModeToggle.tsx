@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import { Moon, MoonIcon, Sun } from "lucide-react";
+import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
 
 import { Button } from "@/components/ui/button";
@@ -11,13 +11,12 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { div } from "framer-motion/client";
 
 export function ModeToggle() {
   const { setTheme } = useTheme();
 
   return (
-    <div className=" z-40 absolute bottom-2 left-2" >
+    <div className=" z-40 absolute bottom-2 left-2">
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
           <Button variant="outline" size="icon">
