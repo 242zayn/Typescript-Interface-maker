@@ -15,3 +15,12 @@ export interface InterfacePropsType {
 export interface CodeBlockDemoProps {
   code: string;
 }
+
+export interface JobDataType {
+  jobTitle: string;
+  companyName: string;
+  hrEmail: string;
+  hrMobile: string;
+  currentStatus: string;
+  description: string;
+}

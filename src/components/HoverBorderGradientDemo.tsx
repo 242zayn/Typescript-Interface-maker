@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { HoverBorderGradient } from "./ui/hover-border-gradient";
-import { ThemeButtonType } from "@/app/types/types";
+import { ThemeButtonType } from "@/types/types";
 import Link from "next/link";
 
 const HoverBorderGradientDemo = ({

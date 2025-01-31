@@ -9,7 +9,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { InterfacePropsType } from "@/app/types/types";
+import { InterfacePropsType } from "@/types/types";
 
 export default function App({ value, onValueChange }: InterfacePropsType) {
   return (
