@@ -18,8 +18,8 @@ const Hero = () => {
           </h2>
 
           <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
-            ⚡ Features Easy-to-use interface generator Customizable field types
-            and constraints JSON-to-interface conversion in seconds
+            ⚡ Features Easy-to-use interface generator and Customizable field
+            types and constraints JSON-to-interface conversion in seconds
           </p>
           <div className="flex justify-center items-center gap-5">
             <HoverBorderGradientDemo
